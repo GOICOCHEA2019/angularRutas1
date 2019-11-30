@@ -9,6 +9,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { ProductosComponent } from './productos/productos.component';
 import { AcercadeComponent } from './acercade/acercade.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
+import { ArticulosComponent } from './articulos/articulos.component';
+import { DbproductosComponent } from './dbproductos/dbproductos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { Pagina404Component } from './pagina404/pagina404.component';
     ServiciosComponent,
     ProductosComponent,
     AcercadeComponent,
-    Pagina404Component
+    Pagina404Component,
+    ArticulosComponent,
+    DbproductosComponent
   ],
   imports: [
     BrowserModule,

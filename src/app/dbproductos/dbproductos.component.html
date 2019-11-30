@@ -1,5 +1,5 @@
 <h1>
-	productos
+	DBproductos
 </h1>
 <br>
 
@@ -15,9 +15,8 @@
 	<tbody>
 		<tr *ngFor="let producto of productos">
 			<td>{{producto.codigo}}</td>
-			<td>{{producto.descripcion |uppercase}}</td>
-			<td>{{producto.descripcion |titlecase}}</td>
-			<td>{{producto.precio |currency:'S.'}}</td>
+			<td>{{producto.descripcion}}</td>
+			<td>{{producto.precio}}</td>
 		</tr>
 	</tbody>
 </table>

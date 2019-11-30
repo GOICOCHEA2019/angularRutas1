@@ -5,8 +5,23 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { ProductosComponent } from './productos/productos.component';
 import { AcercadeComponent } from './acercade/acercade.component';
 import { Pagina404Component } from './pagina404/pagina404.component';
+import { ArticulosComponent } from './articulos/articulos.component';
+import { DbproductosComponent } from './dbproductos/dbproductos.component';
+
 
 const routes: Routes = [
+
+
+{
+	path: 'dbproductos',
+	component: DbproductosComponent
+},
+
+{
+
+	path: 'articulos',
+	component: ArticulosComponent
+},
 
 {
 
@@ -14,12 +29,12 @@ const routes: Routes = [
 	component: AcercadeComponent
 },
 
-
 {
 
 	path: 'productos',
 	component: ProductosComponent
 },
+
 {
 
 	path: 'servicios',
@@ -39,14 +54,11 @@ const routes: Routes = [
 	pathMatch: 'full'
 },
 
-
-
 {
 
 	path: '**',
 	component: Pagina404Component
 }
-
 
 ];
 
